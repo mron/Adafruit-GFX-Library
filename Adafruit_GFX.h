@@ -83,9 +83,9 @@ public:
   void drawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w,
                   int16_t h, uint16_t color, uint16_t bg);
   void drawBitmap(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h,
-                  uint16_t color);
+                  uint16_t color );
   void drawBitmap(int16_t x, int16_t y, uint8_t *bitmap, int16_t w, int16_t h,
-                  uint16_t color, uint16_t bg);
+                  uint16_t color, uint16_t bg , uint16_t modulo);
   void drawXBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w,
                    int16_t h, uint16_t color);
   void drawGrayscaleBitmap(int16_t x, int16_t y, const uint8_t bitmap[],
